@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Yuchen Gu"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: hiv-disclosure-assistant.qmd
+        text: "Artifact 1: HIV Disclosure Assistant"
+  page-footer:
+    center: "© 2026 Yuchen Gu · Built with Quarto for the AIML-500 Professional Portfolio"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-title: "On this page"

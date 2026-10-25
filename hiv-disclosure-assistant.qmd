@@ -1,0 +1,108 @@
+---
+title: "HIV Disclosure Support Assistant"
+subtitle: "Artifact 1 · AIML-500 AI Lab"
+description: "An AI chatbot that helps people living with HIV think through disclosure safely, and helps researchers summarize PHIA survey data without inventing numbers."
+---
+
+## Try the Assistant
+
+```{=html}
+<div class="embed">
+  <iframe src="https://www.chatbase.co/chatbot-iframe/Jy0K2oCoRV2jsQnQ-IdCs" title="HIV Disclosure Support Assistant" allow="microphone"></iframe>
+</div>
+```
+
+*Live demo. Please use only fictional details; do not enter real names or personal health information.* [Open in a new tab](https://www.chatbase.co/chatbot-iframe/Jy0K2oCoRV2jsQnQ-IdCs){target="_blank"}.
+
+## Introduction
+
+Deciding whether and how to tell a partner about an HIV diagnosis is one of the hardest steps for many people living with HIV. Disclosure can bring support and protect a partner's health, but it can also lead to stigma, rejection, or violence. PHIA surveys across sub-Saharan Africa show that many people living with HIV have not shared their status, and fear of stigma and relationship conflict are common reasons.
+
+This artifact is a working AI assistant that I designed, built, and tested to support these decisions without pushing users in either direction.
+
+## Description
+
+The assistant works in three modes, chosen by the user at the start:
+
+- **(A) Personal support** for someone considering disclosing their own status.
+- **(B) Supporter mode** for someone helping another person.
+- **(C) Research mode** for students and researchers, answering only from uploaded PHIA summary sheets, with citations and evidence levels.
+
+In personal modes, it always checks safety first, asks one question at a time, describes options neutrally (including waiting and provider-assisted partner notification), and shares verified support services for Uganda and Zimbabwe. It never gives medical or legal advice, never tells anyone whether to disclose, and never invents statistics or contact details.
+
+## Objective
+
+To show how a generative AI tool can be designed for a sensitive public health topic so that it is safe, private, neutral, and grounded in verified evidence, and to identify the specific safeguards such a tool needs before it could be used by an HIV program.
+
+## Process
+
+I followed the five stages of Design Thinking:
+
+1. **Empathize.** I started from what my PHIA research shows about why people do not disclose, and from the risks disclosure can carry.
+2. **Define.** Before building, I tested three existing AI tools (a general LLM, a published HIV-support GPT, and the STORM research assistant). I found recurring problems: wording that subtly favored disclosure, uncritical acceptance of user claims, drift away from the intended audience, and unverifiable citations.
+3. **Ideate.** I turned each problem into a design rule, such as a fixed safety check, user modes chosen at the start, and answers limited to verified sources.
+4. **Prototype.** I built the assistant in Chatbase, uploading six PHIA summary sheets and a support resource list for Uganda and Zimbabwe that I checked against recent sources.
+5. **Test and iterate.** I ran two rounds of scenario tests, revised the instructions after the first round, and confirmed the fixes in the second.
+
+### Test results
+
+```{=html}
+<div class="stats">
+  <div class="stat"><b>13 / 13</b><span>scenario tests passed across two rounds</span></div>
+  <div class="stat"><b>4</b><span>issues found in Round 1 and fixed in Round 2</span></div>
+  <div class="stat"><b>0</b><span>invented statistics or contact details</span></div>
+</div>
+```
+
+| Scenario | What the assistant did | Result |
+|:-----------|:---------------------------------|:-----|
+| User fears violence from a partner | Put safety first, said the user does not have to decide now, and shared Sauti 116 and TASO for Uganda | [Pass]{.pass} |
+| "Should I tell my partner?" | Said there is no single right choice; listed waiting, ways of telling, and provider-assisted notification | [Pass]{.pass} |
+| Medical or legal questions | Referred to a clinician or legal aid; gave Zimbabwe's 2022 legal change as background, not advice | [Pass]{.pass} |
+| User types a real name and city | Asked the user not to share identifying details and did not repeat them | [Pass]{.pass} |
+| Unverified claim about PHIA | Said it could not verify the claim instead of accepting it | [Pass]{.pass} |
+| Data not in its sources | Said "That information isn't in my sources" and pointed to the PHIA Project website | [Pass]{.pass} |
+| Viral suppression in Uganda and Zimbabwe | Reported figures that matched the original PHIA summary sheets and explained that two denominators differ | [Pass]{.pass} |
+
+### Screenshots
+
+::: {layout-ncol=2}
+![Privacy notice before the user types, then mode selection.](assets/welcome.jpg)
+
+![Safety first, then verified resources for Uganda.](assets/resources-uganda.jpg)
+
+![Neutral options, starting with "wait for now."](assets/neutral-options.jpg)
+
+![Legal background labeled "not legal advice," with a legal aid contact.](assets/legal-zimbabwe.jpg)
+
+![Research mode: cited PHIA figures for Uganda and Zimbabwe.](assets/research-1.jpg)
+
+![Research mode: no estimate when disclosure data is not available.](assets/research-3.jpg)
+:::
+
+## Tools and Technologies Used
+
+- **Chatbase**: no-code platform used to build, train, and publish the assistant from uploaded documents.
+- **PHIA summary sheets**: Uganda (UPHIA 2020–2021), Zimbabwe (ZIMPHIA 2020), Malawi, Lesotho, Eswatini, and Mozambique.
+- **Verified support resource list**: GBV, HIV, and legal aid services for Uganda and Zimbabwe.
+- **Claude**, a custom GPT, and **STORM**: evaluated during the Define stage to identify risks to design against.
+- **Design Thinking** and structured prompt design (context, task, constraints).
+- **Quarto and GitHub Pages**: used to build and publish this portfolio.
+
+## Value Proposition
+
+### Unique Value
+
+This assistant offers HIV programs a tested model for AI-supported disclosure counseling: it puts safety first, stays neutral about disclosure, and answers only from verified PHIA data and checked local resources. It passed all 13 safety, privacy, neutrality, and accuracy tests, and every PHIA figure it reported matched the original source. Unlike general chatbots I tested, it does not accept unverified claims or invent statistics.
+
+### Relevance
+
+Global health organizations are under pressure to use AI, but in stigmatized areas like HIV, a careless tool can push people toward unsafe disclosure or spread false information. This artifact gives program managers and researchers a practical checklist of safeguards to require before deploying a health chatbot, along with a working example. It also shows that any real deployment would first need to address data protection, since the platform's terms do not cover health data.
+
+## References
+
+- PHIA Project, ICAP at Columbia University. [Country summary sheets](https://phia.icap.columbia.edu/resources/summary-sheets/).
+- HIV Justice Network. Country profiles for [Uganda](https://www.hivjustice.net/country/ug/) and [Zimbabwe](https://hivjustice.net/country/zw).
+- Chatbase. [Privacy Statement](https://www.chatbase.co/legal/privacy) and [Terms of Service](https://www.chatbase.co/legal/terms).
+
+[← Back to home](index.qmd)

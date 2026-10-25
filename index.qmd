@@ -1,0 +1,31 @@
+---
+title: "Yuchen Gu"
+subtitle: "HIV Epidemiology · Responsible AI for Global Health"
+toc: false
+---
+
+I bring population-based HIV evidence and careful testing to AI tools for global health programs.
+
+## Personal Value Proposition
+
+::: vp
+As an HIV epidemiology researcher building skills in AI and machine learning, I help global health programs adopt AI tools that are grounded in population-based evidence such as PHIA data. I design and test these tools for the safety, privacy, and neutrality that sensitive health topics require, so that they support the people they serve rather than put them at risk.
+:::
+
+## About Me
+
+I am an HIV epidemiology researcher. My work uses data from the Population-based HIV Impact Assessment (PHIA) surveys in Eswatini, Lesotho, Malawi, Mozambique, Uganda, and Zimbabwe to study HIV status non-disclosure: who does not share their HIV status, and why.
+
+I am currently studying machine learning fundamentals in the AIML-500 course at Indiana Wesleyan University. My goal is to connect these two fields: to help HIV and global health programs use AI in ways that are evidence-based, respect privacy, and protect people in stigmatized situations.
+
+## Artifacts
+
+Each artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.
+
+::: artifact-card
+[Artifact 1 · Chatbot]{.tag}
+
+### [HIV Disclosure Support Assistant](hiv-disclosure-assistant.qmd)
+
+A tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.
+:::
