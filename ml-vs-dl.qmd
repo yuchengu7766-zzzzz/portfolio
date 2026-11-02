@@ -81,6 +81,7 @@ Health programs often have limited budgets and small or structured datasets. Kno
 
 ## References
 
+- AIML-500. (n.d.). *Machine learning vs. deep learning* [Course lesson]. Indiana Wesleyan University.
 - AIMultiple. (2026). *Top deep learning use cases & with examples*. [https://aimultiple.com/deep-learning-applications](https://aimultiple.com/deep-learning-applications)
 - Apple Inc. (n.d.). *Facial matching security* [Apple Platform Security Guide]. [https://support.apple.com/guide/security/sece151358d1/web](https://support.apple.com/guide/security/sece151358d1/web)
 - Nguyen, N. Y., Tran, V. L., & Dao, V. T. S. (2022). Churn prediction in telecommunication industry using kernel Support Vector Machines. *PLOS ONE, 17*(5), e0267935. [https://doi.org/10.1371/journal.pone.0267935](https://doi.org/10.1371/journal.pone.0267935)
