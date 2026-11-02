@@ -1,0 +1,88 @@
+---
+title: "Machine Learning vs. Deep Learning: Choosing the Right Approach"
+subtitle: "Artifact 2 · AIML-500 Case Study Report"
+description: "A case-study report that compares two real-world AI applications to show how the type of data should decide between traditional machine learning and deep learning."
+---
+
+## Read the Report
+
+```{=html}
+<div class="embed">
+  <iframe src="assets/ml-vs-dl-report.pdf" title="Machine Learning vs. Deep Learning report"></iframe>
+</div>
+```
+
+[Download the full report (PDF)](assets/ml-vs-dl-report.pdf){download="Yuchen_Gu_ML_vs_DL.pdf"}
+
+## Introduction
+
+Global health programs are under pressure to "use AI," and deep learning often gets the most attention. But a more complex model is not always a better one. Choosing the wrong approach can waste limited budgets, need data a program does not have, or produce results that staff cannot explain.
+
+In this report, I compare two real-world cases to show how the **type of data** should guide the choice between traditional machine learning and deep learning.
+
+## Description
+
+The report analyzes two examples from my AIML-500 coursework, each linked to a real-world application:
+
+- **Machine learning:** Customer churn prediction at a telecom company, using a Support Vector Machine (SVM) on structured customer records. A 2022 *PLOS ONE* study reached about 99% accuracy with only 3,333 customers.
+- **Deep learning:** Apple's Face ID, which uses Convolutional Neural Networks (CNNs) trained on over a billion images to recognize faces from raw pixels.
+
+For each case, I explain **why the chosen approach fits the problem and why the other approach does not**, then compare both side by side.
+
+```{=html}
+<div class="stats">
+  <div class="stat"><b>2</b><span>real-world cases analyzed</span></div>
+  <div class="stat"><b>6</b><span>factors compared: data type, features, data size, computing, explainability, priority</span></div>
+  <div class="stat"><b>4</b><span>cited sources, including a peer-reviewed study</span></div>
+</div>
+```
+
+| Factor | Churn prediction (ML, SVM) | Facial recognition (DL, CNN) |
+|:-----------|:-------------------------|:-------------------------|
+| Data type | Structured table | Unstructured images (raw pixels) |
+| Feature extraction | Chosen by people | Learned automatically |
+| Data size | Small to moderate | Very large |
+| Computing power | Ordinary computer | Specialized hardware |
+| Explainability | High | Low |
+| Main priority | Fast, low-cost, explainable predictions | High accuracy and security |
+
+### What this means for global health
+
+The same reasoning applies to my own field. Much of the data HIV programs work with, such as PHIA survey records, is **structured**: one row per respondent with clearly defined variables. Like churn data, this kind of data is usually a better fit for traditional machine learning, which works with moderate sample sizes and keeps results explainable to program staff. Deep learning becomes the better choice when the data is **raw and unstructured**, such as medical images, and large labeled datasets and computing resources are available.
+
+## Objective
+
+To learn how to tell the difference between machine learning and deep learning, and to practice justifying a technical choice with real data and credible sources, a skill I need to advise health programs on which AI tools actually fit their problems.
+
+## Process
+
+1. **Reviewed the lesson.** I studied the course's ML and DL examples and the three key differences: feature extraction, data requirements, and model complexity.
+2. **Selected and researched two cases.** I chose one example of each approach and found real-world evidence: a peer-reviewed churn study in *PLOS ONE* and Apple's official Face ID security documentation.
+3. **Built the argument.** For each case, I explained why the chosen approach fits and why the opposite approach does not, using four questions: What type of data is it? How much data is there? Do the results need to be explained? What does it cost?
+4. **Revised against the rubric.** I checked that every claim was supported by a source, made numbers consistent throughout, removed one claim my sources did not support, and formatted citations in APA style.
+5. **Adapted it for this portfolio.** I added the global health section above to show how the same decision framework applies to HIV survey data.
+
+## Tools and Technologies Used
+
+- **AIML-500 lesson materials**: ML vs. DL examples and key differences.
+- **Research sources**: *PLOS ONE* (peer-reviewed journal), Apple Platform Security Guide, AIMultiple.
+- **Microsoft Word** and **APA 7** citation style: writing and formatting the report.
+- **Quarto and GitHub Pages**: publishing this portfolio page.
+
+## Value Proposition
+
+### Unique Value
+
+I can explain technical AI choices in plain language and back them with evidence. This report shows that I can look at a problem, identify what kind of data it involves, and explain clearly why one approach fits better than another, in a way that non-technical decision-makers can follow.
+
+### Relevance
+
+Health programs often have limited budgets and small or structured datasets. Knowing when a simpler, explainable machine learning model is enough, and when deep learning is truly needed, helps programs avoid costly tools that do not fit their data. This connects directly to my goal of helping global health programs adopt AI that is evidence-based and appropriate for the people they serve.
+
+## References
+
+- AIMultiple. (2026). *Top deep learning use cases & with examples*. [https://aimultiple.com/deep-learning-applications](https://aimultiple.com/deep-learning-applications)
+- Apple Inc. (n.d.). *Facial matching security* [Apple Platform Security Guide]. [https://support.apple.com/guide/security/sece151358d1/web](https://support.apple.com/guide/security/sece151358d1/web)
+- Nguyen, N. Y., Tran, V. L., & Dao, V. T. S. (2022). Churn prediction in telecommunication industry using kernel Support Vector Machines. *PLOS ONE, 17*(5), e0267935. [https://doi.org/10.1371/journal.pone.0267935](https://doi.org/10.1371/journal.pone.0267935)
+
+[← Back to home](index.qmd)

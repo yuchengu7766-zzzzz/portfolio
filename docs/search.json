@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Yuchen Gu",
-    "section": "",
-    "text": "I bring population-based HIV evidence and careful testing to AI tools for global health programs."
-  },
-  {
-    "objectID": "index.html#personal-value-proposition",
-    "href": "index.html#personal-value-proposition",
-    "title": "Yuchen Gu",
-    "section": "Personal Value Proposition",
-    "text": "Personal Value Proposition\n\nAs an HIV epidemiology researcher building skills in AI and machine learning, I help global health programs adopt AI tools that are grounded in population-based evidence such as PHIA data. I design and test these tools for the safety, privacy, and neutrality that sensitive health topics require, so that they support the people they serve rather than put them at risk."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Yuchen Gu",
-    "section": "About Me",
-    "text": "About Me\nI am an HIV epidemiology researcher. My work uses data from the Population-based HIV Impact Assessment (PHIA) surveys in Eswatini, Lesotho, Malawi, Mozambique, Uganda, and Zimbabwe to study HIV status non-disclosure: who does not share their HIV status, and why.\nI am currently studying machine learning fundamentals in the AIML-500 course at Indiana Wesleyan University. My goal is to connect these two fields: to help HIV and global health programs use AI in ways that are evidence-based, respect privacy, and protect people in stigmatized situations."
-  },
-  {
-    "objectID": "index.html#artifacts",
-    "href": "index.html#artifacts",
-    "title": "Yuchen Gu",
-    "section": "Artifacts",
-    "text": "Artifacts\nEach artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.\n\nArtifact 1 · Chatbot\n\nHIV Disclosure Support Assistant\nA tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only."
-  },
-  {
     "objectID": "hiv-disclosure-assistant.html",
     "href": "hiv-disclosure-assistant.html",
     "title": "HIV Disclosure Support Assistant",
@@ -89,5 +61,96 @@
     "title": "HIV Disclosure Support Assistant",
     "section": "References",
     "text": "References\n\nPHIA Project, ICAP at Columbia University. Country summary sheets.\nHIV Justice Network. Country profiles for Uganda and Zimbabwe.\nChatbase. Privacy Statement and Terms of Service.\n\n← Back to home"
+  },
+  {
+    "objectID": "ml-vs-dl.html",
+    "href": "ml-vs-dl.html",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "",
+    "text": "Download the full report (PDF)"
+  },
+  {
+    "objectID": "ml-vs-dl.html#read-the-report",
+    "href": "ml-vs-dl.html#read-the-report",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "",
+    "text": "Download the full report (PDF)"
+  },
+  {
+    "objectID": "ml-vs-dl.html#introduction",
+    "href": "ml-vs-dl.html#introduction",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Introduction",
+    "text": "Introduction\nGlobal health programs are under pressure to “use AI,” and deep learning often gets the most attention. But a more complex model is not always a better one. Choosing the wrong approach can waste limited budgets, need data a program does not have, or produce results that staff cannot explain.\nIn this report, I compare two real-world cases to show how the type of data should guide the choice between traditional machine learning and deep learning."
+  },
+  {
+    "objectID": "ml-vs-dl.html#description",
+    "href": "ml-vs-dl.html#description",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Description",
+    "text": "Description\nThe report analyzes two examples from my AIML-500 coursework, each linked to a real-world application:\n\nMachine learning: Customer churn prediction at a telecom company, using a Support Vector Machine (SVM) on structured customer records. A 2022 PLOS ONE study reached about 99% accuracy with only 3,333 customers.\nDeep learning: Apple’s Face ID, which uses Convolutional Neural Networks (CNNs) trained on over a billion images to recognize faces from raw pixels.\n\nFor each case, I explain why the chosen approach fits the problem and why the other approach does not, then compare both side by side.\n\n  2real-world cases analyzed\n  6factors compared: data type, features, data size, computing, explainability, priority\n  4cited sources, including a peer-reviewed study\n\n\n\n\n\n\n\n\n\nFactor\nChurn prediction (ML, SVM)\nFacial recognition (DL, CNN)\n\n\n\n\nData type\nStructured table\nUnstructured images (raw pixels)\n\n\nFeature extraction\nChosen by people\nLearned automatically\n\n\nData size\nSmall to moderate\nVery large\n\n\nComputing power\nOrdinary computer\nSpecialized hardware\n\n\nExplainability\nHigh\nLow\n\n\nMain priority\nFast, low-cost, explainable predictions\nHigh accuracy and security\n\n\n\n\nWhat this means for global health\nThe same reasoning applies to my own field. Much of the data HIV programs work with, such as PHIA survey records, is structured: one row per respondent with clearly defined variables. Like churn data, this kind of data is usually a better fit for traditional machine learning, which works with moderate sample sizes and keeps results explainable to program staff. Deep learning becomes the better choice when the data is raw and unstructured, such as medical images, and large labeled datasets and computing resources are available."
+  },
+  {
+    "objectID": "ml-vs-dl.html#objective",
+    "href": "ml-vs-dl.html#objective",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Objective",
+    "text": "Objective\nTo learn how to tell the difference between machine learning and deep learning, and to practice justifying a technical choice with real data and credible sources, a skill I need to advise health programs on which AI tools actually fit their problems."
+  },
+  {
+    "objectID": "ml-vs-dl.html#process",
+    "href": "ml-vs-dl.html#process",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Process",
+    "text": "Process\n\nReviewed the lesson. I studied the course’s ML and DL examples and the three key differences: feature extraction, data requirements, and model complexity.\nSelected and researched two cases. I chose one example of each approach and found real-world evidence: a peer-reviewed churn study in PLOS ONE and Apple’s official Face ID security documentation.\nBuilt the argument. For each case, I explained why the chosen approach fits and why the opposite approach does not, using four questions: What type of data is it? How much data is there? Do the results need to be explained? What does it cost?\nRevised against the rubric. I checked that every claim was supported by a source, made numbers consistent throughout, removed one claim my sources did not support, and formatted citations in APA style.\nAdapted it for this portfolio. I added the global health section above to show how the same decision framework applies to HIV survey data."
+  },
+  {
+    "objectID": "ml-vs-dl.html#tools-and-technologies-used",
+    "href": "ml-vs-dl.html#tools-and-technologies-used",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Tools and Technologies Used",
+    "text": "Tools and Technologies Used\n\nAIML-500 lesson materials: ML vs. DL examples and key differences.\nResearch sources: PLOS ONE (peer-reviewed journal), Apple Platform Security Guide, AIMultiple.\nMicrosoft Word and APA 7 citation style: writing and formatting the report.\nQuarto and GitHub Pages: publishing this portfolio page."
+  },
+  {
+    "objectID": "ml-vs-dl.html#value-proposition",
+    "href": "ml-vs-dl.html#value-proposition",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Value Proposition",
+    "text": "Value Proposition\n\nUnique Value\nI can explain technical AI choices in plain language and back them with evidence. This report shows that I can look at a problem, identify what kind of data it involves, and explain clearly why one approach fits better than another, in a way that non-technical decision-makers can follow.\n\n\nRelevance\nHealth programs often have limited budgets and small or structured datasets. Knowing when a simpler, explainable machine learning model is enough, and when deep learning is truly needed, helps programs avoid costly tools that do not fit their data. This connects directly to my goal of helping global health programs adopt AI that is evidence-based and appropriate for the people they serve."
+  },
+  {
+    "objectID": "ml-vs-dl.html#references",
+    "href": "ml-vs-dl.html#references",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "References",
+    "text": "References\n\nAIMultiple. (2026). Top deep learning use cases & with examples. https://aimultiple.com/deep-learning-applications\nApple Inc. (n.d.). Facial matching security [Apple Platform Security Guide]. https://support.apple.com/guide/security/sece151358d1/web\nNguyen, N. Y., Tran, V. L., & Dao, V. T. S. (2022). Churn prediction in telecommunication industry using kernel Support Vector Machines. PLOS ONE, 17(5), e0267935. https://doi.org/10.1371/journal.pone.0267935\n\n← Back to home"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yuchen Gu",
+    "section": "",
+    "text": "I bring population-based HIV evidence and careful testing to AI tools for global health programs."
+  },
+  {
+    "objectID": "index.html#personal-value-proposition",
+    "href": "index.html#personal-value-proposition",
+    "title": "Yuchen Gu",
+    "section": "Personal Value Proposition",
+    "text": "Personal Value Proposition\n\nAs an HIV epidemiology researcher building skills in AI and machine learning, I help global health programs adopt AI tools that are grounded in population-based evidence such as PHIA data. I design and test these tools for the safety, privacy, and neutrality that sensitive health topics require, so that they support the people they serve rather than put them at risk."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Yuchen Gu",
+    "section": "About Me",
+    "text": "About Me\nI am an HIV epidemiology researcher. My work uses data from the Population-based HIV Impact Assessment (PHIA) surveys in Eswatini, Lesotho, Malawi, Mozambique, Uganda, and Zimbabwe to study HIV status non-disclosure: who does not share their HIV status, and why.\nI am currently studying machine learning fundamentals in the AIML-500 course at Indiana Wesleyan University. My goal is to connect these two fields: to help HIV and global health programs use AI in ways that are evidence-based, respect privacy, and protect people in stigmatized situations."
+  },
+  {
+    "objectID": "index.html#artifacts",
+    "href": "index.html#artifacts",
+    "title": "Yuchen Gu",
+    "section": "Artifacts",
+    "text": "Artifacts\nEach artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.\n\nArtifact 1 · Chatbot\n\nHIV Disclosure Support Assistant\nA tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.\n\n\n\nArtifact 2 · Case Study Report\n\nMachine Learning vs. Deep Learning: Choosing the Right Approach\nA case-study report comparing telecom churn prediction and Apple’s Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs."
   }
 ]

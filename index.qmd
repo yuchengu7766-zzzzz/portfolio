@@ -29,3 +29,11 @@ Each artifact below is a finished piece of work from my AIML-500 coursework, wit
 
 A tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.
 :::
+
+::: artifact-card
+[Artifact 2 · Case Study Report]{.tag}
+
+### [Machine Learning vs. Deep Learning: Choosing the Right Approach](ml-vs-dl.qmd)
+
+A case-study report comparing telecom churn prediction and Apple's Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs.
+:::

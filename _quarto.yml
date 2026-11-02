@@ -10,6 +10,8 @@ website:
         text: Home
       - href: hiv-disclosure-assistant.qmd
         text: "Artifact 1: HIV Disclosure Assistant"
+      - href: ml-vs-dl.qmd
+        text: "Artifact 2: ML vs. DL"
   page-footer:
     center: "© 2026 Yuchen Gu · Built with Quarto for the AIML-500 Professional Portfolio"
 
