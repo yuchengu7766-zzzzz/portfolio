@@ -37,3 +37,11 @@ A tested AI assistant that helps people think through HIV status disclosure safe
 
 A case-study report comparing telecom churn prediction and Apple's Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs.
 :::
+
+::: artifact-card
+[Artifact 3 · Newsletter Case Study (Group)]{.tag}
+
+### [Can AI Help with Acne Care Without Losing Human Oversight?](nolla-health-ai.qmd)
+
+My healthcare case study from a group newsletter on commercial AI: an evaluation of Nolla Health's AI-assisted acne care pilot that separates company claims, such as a 0.900 AUROC, from what has been independently shown.
+:::

@@ -12,6 +12,8 @@ website:
         text: "Artifact 1: HIV Disclosure Assistant"
       - href: ml-vs-dl.qmd
         text: "Artifact 2: ML vs. DL"
+      - href: nolla-health-ai.qmd
+        text: "Artifact 3: AI in Healthcare"
   page-footer:
     center: "© 2026 Yuchen Gu · Built with Quarto for the AIML-500 Professional Portfolio"
 

@@ -126,6 +126,69 @@
     "text": "References\n\nAIML-500. (n.d.). Machine learning vs. deep learning [Course lesson]. Indiana Wesleyan University.\nAIMultiple. (2026). Top deep learning use cases & with examples. https://aimultiple.com/deep-learning-applications\nApple Inc. (n.d.). Facial matching security [Apple Platform Security Guide]. https://support.apple.com/guide/security/sece151358d1/web\nNguyen, N. Y., Tran, V. L., & Dao, V. T. S. (2022). Churn prediction in telecommunication industry using kernel Support Vector Machines. PLOS ONE, 17(5), e0267935. https://doi.org/10.1371/journal.pone.0267935\n\n← Back to home"
   },
   {
+    "objectID": "nolla-health-ai.html",
+    "href": "nolla-health-ai.html",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "",
+    "text": "Download the full newsletter (PDF) · My section is the healthcare case study on pages 6–7."
+  },
+  {
+    "objectID": "nolla-health-ai.html#read-the-newsletter",
+    "href": "nolla-health-ai.html#read-the-newsletter",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "",
+    "text": "Download the full newsletter (PDF) · My section is the healthcare case study on pages 6–7."
+  },
+  {
+    "objectID": "nolla-health-ai.html#introduction",
+    "href": "nolla-health-ai.html#introduction",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "Introduction",
+    "text": "Introduction\nNew AI health products often arrive with impressive numbers: a low monthly price, a fast treatment plan, a high model score. For a health program, the hard part is knowing what those numbers do and do not show before trusting the tool with patients.\nThis artifact comes from From Insight to Action, a nine-page newsletter my AIML-500 group wrote about three AI products launched in October 2026, in food service, logistics, and healthcare. I researched and wrote the healthcare case study: Nolla Health’s AI-assisted acne care pilot in Utah."
+  },
+  {
+    "objectID": "nolla-health-ai.html#description",
+    "href": "nolla-health-ai.html#description",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "Description",
+    "text": "Description\nThe newsletter explains what each product does, how it could change business decisions, and what evidence is still missing. My healthcare section covers:\n\nWhat’s new: Nolla Derm’s Utah acne-prescription pilot (October 5, 2026) and its AI flare-up forecasting feature (October 9, 2026).\nHow it works: identity check, medical questions, a five-angle face scan, AI review, and, in the pilot’s first stage, approval of each prescription by two physicians.\nCommercial impact: faster, cheaper access for patients and possibly more doctor time for difficult cases, set against the lack of independent clinical evidence.\nLimitations: skin-tone differences, missed diagnoses, privacy, side effects, and who is responsible if something goes wrong.\n\n\n  3industries compared: food, logistics, healthcare\n  8cited sources, including a state regulator and The BMJ\n  10dropped-text errors found and fixed for this portfolio version\n\n\nReading the claims carefully\nThe core of my section is separating what the company reports from what has actually been shown:\n\n\n\n\n\n\n\nCompany claim\nWhat the evidence actually shows\n\n\n\n\nFlare-up model AUROC of 0.900\nAUROC measures how well a model ranks higher-risk above lower-risk cases. It does not mean the model is 90% accurate for every patient, and the result comes from an internal, retrospective evaluation, not an independent clinical trial.\n\n\nPlans from $4.99 per month; a treatment plan in about 10–15 minutes\nAdvertised by the company. These figures say nothing about whether outcomes match a visit with a dermatologist.\n\n\n“AI prescriptions”\nA limited Utah pilot: certain adults, mild-to-moderate acne, a small set of topical treatments, and two physicians approving each prescription in stage one. It is not autonomous prescribing.\n\n\n\n\n\n\n\n\n\nProduct overview: what’s new and how the pilot works.\n\n\n\n\n\n\n\nBusiness analysis: AUROC explained, commercial impact, and limitations.\n\n\n\n\n\n\n\nWhat this means for global health\nThe questions I asked about Nolla are the same ones an HIV or global health program should ask before adopting any AI tool. Was the model tested independently, or only by the company? Does a high score hold across the populations the program serves, including people with darker skin tones? Who reviews the AI’s output, and who is accountable when it is wrong? A tool that performs well in one setting may not transfer to clinics in sub-Saharan Africa without local validation."
+  },
+  {
+    "objectID": "nolla-health-ai.html#objective",
+    "href": "nolla-health-ai.html#objective",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "Objective",
+    "text": "Objective\nTo analyze a real, newly launched AI product in healthcare and explain its business value and its risks in plain language for a business audience, while reading model performance metrics correctly instead of repeating company claims."
+  },
+  {
+    "objectID": "nolla-health-ai.html#process",
+    "href": "nolla-health-ai.html#process",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "Process",
+    "text": "Process\n\nChose the case within the assignment window. Our group was asked to cover AI products launched within one month. The Nolla pilot started two days before the window, so we included it because the October 9 flare-up forecasting feature fell inside it, and we stated this openly in the newsletter.\nGathered evidence from different types of sources. I used Nolla’s own announcements for product facts, the Utah Department of Commerce for the pilot’s authorized scope and oversight, and The BMJ for independent reporting on physician oversight.\nInterpreted the model metrics. I explained AUROC for non-technical readers and labeled the 0.900 and 0.914 results as internal, retrospective evaluations.\nMapped the human oversight. I summarized the patient pathway (intake, face scan and AI review, two-physician approval, prescription) to show where people stay in control.\nIntegrated with the group. Our group combined the three case studies into one newsletter with a shared structure and a cross-industry comparison of how much human review each use of AI needs.\nRevised for this portfolio. I found that the PDF export had silently dropped emphasized text in ten places. In my section, one sentence’s meaning was reversed: it read that an AUROC of 0.900 “does mean” 90% accuracy. I restored the missing text across the newsletter and corrected that sentence."
+  },
+  {
+    "objectID": "nolla-health-ai.html#tools-and-technologies-used",
+    "href": "nolla-health-ai.html#tools-and-technologies-used",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "Tools and Technologies Used",
+    "text": "Tools and Technologies Used\n\nPrimary sources: Nolla Health announcements, the Utah Department of Commerce AI pilot program, and The BMJ.\nML evaluation concepts: AUROC and the difference between internal retrospective testing and independent prospective trials.\nGenerative AI: used by our group to support research synthesis and the newsletter’s HTML design, as disclosed in the newsletter.\nHTML and PDF: newsletter layout and export.\nQuarto and GitHub Pages: publishing this portfolio page."
+  },
+  {
+    "objectID": "nolla-health-ai.html#value-proposition",
+    "href": "nolla-health-ai.html#value-proposition",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "Value Proposition",
+    "text": "Value Proposition\n\nUnique Value\nI can look past the headline numbers of an AI health product and explain what they really mean. In this case study I showed that a high AUROC is not the same as accuracy, that a company’s internal test is not a clinical trial, and that “AI prescribing” was in practice a narrow pilot with two doctors approving every prescription. I explain this in language that business and program decision-makers can follow.\n\n\nRelevance\nHealth programs are approached by vendors with AI tools and promising metrics. Being able to ask the right questions about validation, fairness across populations, human oversight, and accountability helps programs avoid tools that look strong on paper but have not been proven for the people they serve. This connects directly to my goal of helping global health programs adopt AI that is evidence-based and safe."
+  },
+  {
+    "objectID": "nolla-health-ai.html#references",
+    "href": "nolla-health-ai.html#references",
+    "title": "Can AI Help with Acne Care Without Losing Human Oversight?",
+    "section": "References",
+    "text": "References\n\nNolla Health. (2026, October 5). Nolla’s Utah prescription pilot announcement.\nNolla Health. (2026, October 9). Acne flare-up forecasting: Model description and internal evaluation.\nUtah Department of Commerce. (n.d.). Authorized AI pilots: Nolla Health.\nThe BMJ. (2026, October 19). Report on physician oversight in Nolla’s pilot.\nGroup 3 (Sultan, A., Uppuluri, J., Punyamurthula, K. S., Sun, Y., & Gu, Y.). (2026). From insight to action: How AI is changing food operations, fleet management, and healthcare decisions [Course newsletter]. AIML-500, Indiana Wesleyan University.\n\n← Back to home"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Yuchen Gu",
@@ -151,6 +214,6 @@
     "href": "index.html#artifacts",
     "title": "Yuchen Gu",
     "section": "Artifacts",
-    "text": "Artifacts\nEach artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.\n\nArtifact 1 · Chatbot\n\nHIV Disclosure Support Assistant\nA tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.\n\n\n\nArtifact 2 · Case Study Report\n\nMachine Learning vs. Deep Learning: Choosing the Right Approach\nA case-study report comparing telecom churn prediction and Apple’s Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs."
+    "text": "Artifacts\nEach artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.\n\nArtifact 1 · Chatbot\n\nHIV Disclosure Support Assistant\nA tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.\n\n\n\nArtifact 2 · Case Study Report\n\nMachine Learning vs. Deep Learning: Choosing the Right Approach\nA case-study report comparing telecom churn prediction and Apple’s Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs.\n\n\n\nArtifact 3 · Newsletter Case Study (Group)\n\nCan AI Help with Acne Care Without Losing Human Oversight?\nMy healthcare case study from a group newsletter on commercial AI: an evaluation of Nolla Health’s AI-assisted acne care pilot that separates company claims, such as a 0.900 AUROC, from what has been independently shown."
   }
 ]
