@@ -353,6 +353,16 @@ I am an HIV epidemiology researcher. My work uses data from the Population-based
 
 I am currently studying machine learning fundamentals in the AIML-500 course at Indiana Wesleyan University. My goal is to connect these two fields: to help HIV and global health programs use AI in ways that are evidence-based, respect privacy, and protect people in stigmatized situations.
 
+## Target Audience
+
+This portfolio is written for people who decide whether and how AI is used in global health:
+
+- **Global health and HIV program leaders**, who are being asked to adopt AI tools and need to know whether a tool is safe, fair, and suited to their data.
+- **Public health organizations and research teams**, who work with sensitive survey and clinical data and need AI methods that protect privacy and avoid bias.
+- **Hiring managers for responsible AI and health data science roles**, who are looking for someone who can connect population health evidence with practical AI evaluation.
+
+**Why it is relevant to them:** each artifact shows one skill these readers need. I can build and test a safe AI tool (Artifact 1), choose the right method for the data (Artifact 2), read AI health claims critically (Artifact 3), and lead teams to keep AI fair and transparent (Artifact 4).
+
 ## Artifacts
 
 Each artifact is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.
