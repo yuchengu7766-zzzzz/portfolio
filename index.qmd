@@ -1,10 +1,345 @@
 ---
 title: "Yuchen Gu"
-subtitle: "HIV Epidemiology · Responsible AI for Global Health"
+pagetitle: "Yuchen Gu · Responsible AI for Global Health"
 toc: false
+page-layout: full
+body-classes: home
 ---
 
-I bring population-based HIV evidence and careful testing to AI tools for global health programs.
+```{=html}
+<section class="hero">
+  <div class="hero-text">
+    <h1 class="hero-name">Yuchen Gu</h1>
+    <p class="hero-role">HIV epidemiologist building responsible AI for global health programs</p>
+    <p class="hero-lede">I bring population-based HIV evidence and careful testing to AI tools, so they serve the people who are easiest to overlook.</p>
+  </div>
+  <figure class="hero-figure">
+    <svg class="dotfield" viewBox="0 0 498 203" role="img" aria-labelledby="dfT dfD" xmlns="http://www.w3.org/2000/svg">
+<title id="dfT">Illustration of population survey data</title>
+<desc id="dfD">Six clusters of dots, one for each PHIA country: Eswatini, Lesotho, Malawi, Mozambique, Uganda and Zimbabwe. A few dots in each cluster are hollow, standing for the people data can miss.</desc>
+<circle cx="23.5" cy="36.5" r="4.3"/>
+<circle cx="36.5" cy="36.5" r="4.3"/>
+<circle cx="49.5" cy="36.5" r="4.3"/>
+<circle class="miss" cx="62.5" cy="36.5" r="4.3"/>
+<circle cx="10.5" cy="49.5" r="4.3"/>
+<circle cx="23.5" cy="49.5" r="4.3"/>
+<circle cx="36.5" cy="49.5" r="4.3"/>
+<circle cx="49.5" cy="49.5" r="4.3"/>
+<circle cx="62.5" cy="49.5" r="4.3"/>
+<circle class="miss" cx="10.5" cy="62.5" r="4.3"/>
+<circle cx="23.5" cy="62.5" r="4.3"/>
+<circle cx="36.5" cy="62.5" r="4.3"/>
+<circle cx="49.5" cy="62.5" r="4.3"/>
+<circle cx="62.5" cy="62.5" r="4.3"/>
+<circle cx="10.5" cy="75.5" r="4.3"/>
+<circle cx="23.5" cy="75.5" r="4.3"/>
+<circle cx="36.5" cy="75.5" r="4.3"/>
+<circle cx="49.5" cy="75.5" r="4.3"/>
+<circle cx="62.5" cy="75.5" r="4.3"/>
+<circle cx="10.5" cy="88.5" r="4.3"/>
+<circle cx="23.5" cy="88.5" r="4.3"/>
+<circle cx="36.5" cy="88.5" r="4.3"/>
+<circle cx="49.5" cy="88.5" r="4.3"/>
+<circle cx="62.5" cy="88.5" r="4.3"/>
+<circle cx="10.5" cy="101.5" r="4.3"/>
+<circle class="miss" cx="23.5" cy="101.5" r="4.3"/>
+<circle cx="36.5" cy="101.5" r="4.3"/>
+<circle cx="49.5" cy="101.5" r="4.3"/>
+<circle cx="62.5" cy="101.5" r="4.3"/>
+<circle cx="10.5" cy="114.5" r="4.3"/>
+<circle cx="23.5" cy="114.5" r="4.3"/>
+<circle cx="36.5" cy="114.5" r="4.3"/>
+<circle cx="49.5" cy="114.5" r="4.3"/>
+<circle cx="62.5" cy="114.5" r="4.3"/>
+<circle cx="10.5" cy="127.5" r="4.3"/>
+<circle cx="23.5" cy="127.5" r="4.3"/>
+<circle cx="36.5" cy="127.5" r="4.3"/>
+<circle cx="49.5" cy="127.5" r="4.3"/>
+<circle cx="62.5" cy="127.5" r="4.3"/>
+<circle cx="10.5" cy="140.5" r="4.3"/>
+<circle cx="23.5" cy="140.5" r="4.3"/>
+<circle class="miss" cx="36.5" cy="140.5" r="4.3"/>
+<circle cx="49.5" cy="140.5" r="4.3"/>
+<circle cx="62.5" cy="140.5" r="4.3"/>
+<circle cx="10.5" cy="153.5" r="4.3"/>
+<circle cx="23.5" cy="153.5" r="4.3"/>
+<circle cx="36.5" cy="153.5" r="4.3"/>
+<circle cx="49.5" cy="153.5" r="4.3"/>
+<circle cx="62.5" cy="153.5" r="4.3"/>
+<circle cx="10.5" cy="166.5" r="4.3"/>
+<circle cx="23.5" cy="166.5" r="4.3"/>
+<circle cx="36.5" cy="166.5" r="4.3"/>
+<circle cx="49.5" cy="166.5" r="4.3"/>
+<circle cx="62.5" cy="166.5" r="4.3"/>
+<text x="36.5" y="197" text-anchor="middle">Eswatini</text>
+<circle cx="147.5" cy="49.5" r="4.3"/>
+<circle cx="95.5" cy="62.5" r="4.3"/>
+<circle cx="108.5" cy="62.5" r="4.3"/>
+<circle cx="121.5" cy="62.5" r="4.3"/>
+<circle cx="134.5" cy="62.5" r="4.3"/>
+<circle cx="147.5" cy="62.5" r="4.3"/>
+<circle class="miss" cx="95.5" cy="75.5" r="4.3"/>
+<circle cx="108.5" cy="75.5" r="4.3"/>
+<circle cx="121.5" cy="75.5" r="4.3"/>
+<circle cx="134.5" cy="75.5" r="4.3"/>
+<circle cx="147.5" cy="75.5" r="4.3"/>
+<circle cx="95.5" cy="88.5" r="4.3"/>
+<circle cx="108.5" cy="88.5" r="4.3"/>
+<circle cx="121.5" cy="88.5" r="4.3"/>
+<circle cx="134.5" cy="88.5" r="4.3"/>
+<circle cx="147.5" cy="88.5" r="4.3"/>
+<circle cx="95.5" cy="101.5" r="4.3"/>
+<circle cx="108.5" cy="101.5" r="4.3"/>
+<circle cx="121.5" cy="101.5" r="4.3"/>
+<circle cx="134.5" cy="101.5" r="4.3"/>
+<circle cx="147.5" cy="101.5" r="4.3"/>
+<circle cx="95.5" cy="114.5" r="4.3"/>
+<circle cx="108.5" cy="114.5" r="4.3"/>
+<circle class="miss" cx="121.5" cy="114.5" r="4.3"/>
+<circle cx="134.5" cy="114.5" r="4.3"/>
+<circle cx="147.5" cy="114.5" r="4.3"/>
+<circle cx="95.5" cy="127.5" r="4.3"/>
+<circle cx="108.5" cy="127.5" r="4.3"/>
+<circle cx="121.5" cy="127.5" r="4.3"/>
+<circle cx="134.5" cy="127.5" r="4.3"/>
+<circle cx="147.5" cy="127.5" r="4.3"/>
+<circle cx="95.5" cy="140.5" r="4.3"/>
+<circle cx="108.5" cy="140.5" r="4.3"/>
+<circle cx="121.5" cy="140.5" r="4.3"/>
+<circle class="miss" cx="134.5" cy="140.5" r="4.3"/>
+<circle cx="147.5" cy="140.5" r="4.3"/>
+<circle cx="95.5" cy="153.5" r="4.3"/>
+<circle cx="108.5" cy="153.5" r="4.3"/>
+<circle cx="121.5" cy="153.5" r="4.3"/>
+<circle cx="134.5" cy="153.5" r="4.3"/>
+<circle cx="147.5" cy="153.5" r="4.3"/>
+<circle cx="95.5" cy="166.5" r="4.3"/>
+<circle cx="108.5" cy="166.5" r="4.3"/>
+<circle cx="121.5" cy="166.5" r="4.3"/>
+<circle cx="134.5" cy="166.5" r="4.3"/>
+<circle cx="147.5" cy="166.5" r="4.3"/>
+<text x="121.5" y="197" text-anchor="middle">Lesotho</text>
+<circle cx="219.5" cy="10.5" r="4.3"/>
+<circle cx="232.5" cy="10.5" r="4.3"/>
+<circle cx="180.5" cy="23.5" r="4.3"/>
+<circle class="miss" cx="193.5" cy="23.5" r="4.3"/>
+<circle cx="206.5" cy="23.5" r="4.3"/>
+<circle cx="219.5" cy="23.5" r="4.3"/>
+<circle cx="232.5" cy="23.5" r="4.3"/>
+<circle cx="180.5" cy="36.5" r="4.3"/>
+<circle cx="193.5" cy="36.5" r="4.3"/>
+<circle cx="206.5" cy="36.5" r="4.3"/>
+<circle cx="219.5" cy="36.5" r="4.3"/>
+<circle cx="232.5" cy="36.5" r="4.3"/>
+<circle cx="180.5" cy="49.5" r="4.3"/>
+<circle class="miss" cx="193.5" cy="49.5" r="4.3"/>
+<circle cx="206.5" cy="49.5" r="4.3"/>
+<circle cx="219.5" cy="49.5" r="4.3"/>
+<circle cx="232.5" cy="49.5" r="4.3"/>
+<circle cx="180.5" cy="62.5" r="4.3"/>
+<circle cx="193.5" cy="62.5" r="4.3"/>
+<circle cx="206.5" cy="62.5" r="4.3"/>
+<circle cx="219.5" cy="62.5" r="4.3"/>
+<circle cx="232.5" cy="62.5" r="4.3"/>
+<circle cx="180.5" cy="75.5" r="4.3"/>
+<circle cx="193.5" cy="75.5" r="4.3"/>
+<circle cx="206.5" cy="75.5" r="4.3"/>
+<circle cx="219.5" cy="75.5" r="4.3"/>
+<circle cx="232.5" cy="75.5" r="4.3"/>
+<circle cx="180.5" cy="88.5" r="4.3"/>
+<circle cx="193.5" cy="88.5" r="4.3"/>
+<circle cx="206.5" cy="88.5" r="4.3"/>
+<circle cx="219.5" cy="88.5" r="4.3"/>
+<circle cx="232.5" cy="88.5" r="4.3"/>
+<circle class="miss" cx="180.5" cy="101.5" r="4.3"/>
+<circle cx="193.5" cy="101.5" r="4.3"/>
+<circle cx="206.5" cy="101.5" r="4.3"/>
+<circle cx="219.5" cy="101.5" r="4.3"/>
+<circle cx="232.5" cy="101.5" r="4.3"/>
+<circle cx="180.5" cy="114.5" r="4.3"/>
+<circle cx="193.5" cy="114.5" r="4.3"/>
+<circle cx="206.5" cy="114.5" r="4.3"/>
+<circle cx="219.5" cy="114.5" r="4.3"/>
+<circle cx="232.5" cy="114.5" r="4.3"/>
+<circle cx="180.5" cy="127.5" r="4.3"/>
+<circle cx="193.5" cy="127.5" r="4.3"/>
+<circle cx="206.5" cy="127.5" r="4.3"/>
+<circle cx="219.5" cy="127.5" r="4.3"/>
+<circle cx="232.5" cy="127.5" r="4.3"/>
+<circle cx="180.5" cy="140.5" r="4.3"/>
+<circle cx="193.5" cy="140.5" r="4.3"/>
+<circle cx="206.5" cy="140.5" r="4.3"/>
+<circle cx="219.5" cy="140.5" r="4.3"/>
+<circle cx="232.5" cy="140.5" r="4.3"/>
+<circle cx="180.5" cy="153.5" r="4.3"/>
+<circle cx="193.5" cy="153.5" r="4.3"/>
+<circle cx="206.5" cy="153.5" r="4.3"/>
+<circle cx="219.5" cy="153.5" r="4.3"/>
+<circle cx="232.5" cy="153.5" r="4.3"/>
+<circle cx="180.5" cy="166.5" r="4.3"/>
+<circle class="miss" cx="193.5" cy="166.5" r="4.3"/>
+<circle cx="206.5" cy="166.5" r="4.3"/>
+<circle cx="219.5" cy="166.5" r="4.3"/>
+<circle cx="232.5" cy="166.5" r="4.3"/>
+<text x="206.5" y="197" text-anchor="middle">Malawi</text>
+<circle cx="265.5" cy="62.5" r="4.3"/>
+<circle cx="278.5" cy="62.5" r="4.3"/>
+<circle cx="291.5" cy="62.5" r="4.3"/>
+<circle cx="304.5" cy="62.5" r="4.3"/>
+<circle cx="317.5" cy="62.5" r="4.3"/>
+<circle class="miss" cx="265.5" cy="75.5" r="4.3"/>
+<circle cx="278.5" cy="75.5" r="4.3"/>
+<circle cx="291.5" cy="75.5" r="4.3"/>
+<circle cx="304.5" cy="75.5" r="4.3"/>
+<circle cx="317.5" cy="75.5" r="4.3"/>
+<circle cx="265.5" cy="88.5" r="4.3"/>
+<circle cx="278.5" cy="88.5" r="4.3"/>
+<circle cx="291.5" cy="88.5" r="4.3"/>
+<circle cx="304.5" cy="88.5" r="4.3"/>
+<circle cx="317.5" cy="88.5" r="4.3"/>
+<circle cx="265.5" cy="101.5" r="4.3"/>
+<circle cx="278.5" cy="101.5" r="4.3"/>
+<circle cx="291.5" cy="101.5" r="4.3"/>
+<circle cx="304.5" cy="101.5" r="4.3"/>
+<circle cx="317.5" cy="101.5" r="4.3"/>
+<circle cx="265.5" cy="114.5" r="4.3"/>
+<circle cx="278.5" cy="114.5" r="4.3"/>
+<circle cx="291.5" cy="114.5" r="4.3"/>
+<circle cx="304.5" cy="114.5" r="4.3"/>
+<circle cx="317.5" cy="114.5" r="4.3"/>
+<circle cx="265.5" cy="127.5" r="4.3"/>
+<circle class="miss" cx="278.5" cy="127.5" r="4.3"/>
+<circle class="miss" cx="291.5" cy="127.5" r="4.3"/>
+<circle cx="304.5" cy="127.5" r="4.3"/>
+<circle cx="317.5" cy="127.5" r="4.3"/>
+<circle cx="265.5" cy="140.5" r="4.3"/>
+<circle cx="278.5" cy="140.5" r="4.3"/>
+<circle cx="291.5" cy="140.5" r="4.3"/>
+<circle cx="304.5" cy="140.5" r="4.3"/>
+<circle cx="317.5" cy="140.5" r="4.3"/>
+<circle cx="265.5" cy="153.5" r="4.3"/>
+<circle cx="278.5" cy="153.5" r="4.3"/>
+<circle cx="291.5" cy="153.5" r="4.3"/>
+<circle cx="304.5" cy="153.5" r="4.3"/>
+<circle cx="317.5" cy="153.5" r="4.3"/>
+<circle cx="265.5" cy="166.5" r="4.3"/>
+<circle cx="278.5" cy="166.5" r="4.3"/>
+<circle cx="291.5" cy="166.5" r="4.3"/>
+<circle cx="304.5" cy="166.5" r="4.3"/>
+<circle cx="317.5" cy="166.5" r="4.3"/>
+<text x="291.5" y="197" text-anchor="middle">Mozambique</text>
+<circle cx="402.5" cy="49.5" r="4.3"/>
+<circle cx="350.5" cy="62.5" r="4.3"/>
+<circle cx="363.5" cy="62.5" r="4.3"/>
+<circle cx="376.5" cy="62.5" r="4.3"/>
+<circle cx="389.5" cy="62.5" r="4.3"/>
+<circle class="miss" cx="402.5" cy="62.5" r="4.3"/>
+<circle cx="350.5" cy="75.5" r="4.3"/>
+<circle cx="363.5" cy="75.5" r="4.3"/>
+<circle cx="376.5" cy="75.5" r="4.3"/>
+<circle cx="389.5" cy="75.5" r="4.3"/>
+<circle cx="402.5" cy="75.5" r="4.3"/>
+<circle cx="350.5" cy="88.5" r="4.3"/>
+<circle cx="363.5" cy="88.5" r="4.3"/>
+<circle cx="376.5" cy="88.5" r="4.3"/>
+<circle cx="389.5" cy="88.5" r="4.3"/>
+<circle class="miss" cx="402.5" cy="88.5" r="4.3"/>
+<circle cx="350.5" cy="101.5" r="4.3"/>
+<circle cx="363.5" cy="101.5" r="4.3"/>
+<circle cx="376.5" cy="101.5" r="4.3"/>
+<circle cx="389.5" cy="101.5" r="4.3"/>
+<circle cx="402.5" cy="101.5" r="4.3"/>
+<circle cx="350.5" cy="114.5" r="4.3"/>
+<circle cx="363.5" cy="114.5" r="4.3"/>
+<circle cx="376.5" cy="114.5" r="4.3"/>
+<circle cx="389.5" cy="114.5" r="4.3"/>
+<circle cx="402.5" cy="114.5" r="4.3"/>
+<circle cx="350.5" cy="127.5" r="4.3"/>
+<circle cx="363.5" cy="127.5" r="4.3"/>
+<circle cx="376.5" cy="127.5" r="4.3"/>
+<circle cx="389.5" cy="127.5" r="4.3"/>
+<circle cx="402.5" cy="127.5" r="4.3"/>
+<circle cx="350.5" cy="140.5" r="4.3"/>
+<circle cx="363.5" cy="140.5" r="4.3"/>
+<circle cx="376.5" cy="140.5" r="4.3"/>
+<circle cx="389.5" cy="140.5" r="4.3"/>
+<circle class="miss" cx="402.5" cy="140.5" r="4.3"/>
+<circle cx="350.5" cy="153.5" r="4.3"/>
+<circle cx="363.5" cy="153.5" r="4.3"/>
+<circle cx="376.5" cy="153.5" r="4.3"/>
+<circle cx="389.5" cy="153.5" r="4.3"/>
+<circle cx="402.5" cy="153.5" r="4.3"/>
+<circle cx="350.5" cy="166.5" r="4.3"/>
+<circle cx="363.5" cy="166.5" r="4.3"/>
+<circle cx="376.5" cy="166.5" r="4.3"/>
+<circle cx="389.5" cy="166.5" r="4.3"/>
+<circle cx="402.5" cy="166.5" r="4.3"/>
+<text x="376.5" y="197" text-anchor="middle">Uganda</text>
+<circle cx="474.5" cy="23.5" r="4.3"/>
+<circle cx="487.5" cy="23.5" r="4.3"/>
+<circle cx="435.5" cy="36.5" r="4.3"/>
+<circle class="miss" cx="448.5" cy="36.5" r="4.3"/>
+<circle cx="461.5" cy="36.5" r="4.3"/>
+<circle cx="474.5" cy="36.5" r="4.3"/>
+<circle cx="487.5" cy="36.5" r="4.3"/>
+<circle class="miss" cx="435.5" cy="49.5" r="4.3"/>
+<circle cx="448.5" cy="49.5" r="4.3"/>
+<circle cx="461.5" cy="49.5" r="4.3"/>
+<circle cx="474.5" cy="49.5" r="4.3"/>
+<circle cx="487.5" cy="49.5" r="4.3"/>
+<circle cx="435.5" cy="62.5" r="4.3"/>
+<circle cx="448.5" cy="62.5" r="4.3"/>
+<circle cx="461.5" cy="62.5" r="4.3"/>
+<circle cx="474.5" cy="62.5" r="4.3"/>
+<circle cx="487.5" cy="62.5" r="4.3"/>
+<circle cx="435.5" cy="75.5" r="4.3"/>
+<circle cx="448.5" cy="75.5" r="4.3"/>
+<circle cx="461.5" cy="75.5" r="4.3"/>
+<circle cx="474.5" cy="75.5" r="4.3"/>
+<circle cx="487.5" cy="75.5" r="4.3"/>
+<circle cx="435.5" cy="88.5" r="4.3"/>
+<circle cx="448.5" cy="88.5" r="4.3"/>
+<circle cx="461.5" cy="88.5" r="4.3"/>
+<circle cx="474.5" cy="88.5" r="4.3"/>
+<circle cx="487.5" cy="88.5" r="4.3"/>
+<circle cx="435.5" cy="101.5" r="4.3"/>
+<circle cx="448.5" cy="101.5" r="4.3"/>
+<circle cx="461.5" cy="101.5" r="4.3"/>
+<circle cx="474.5" cy="101.5" r="4.3"/>
+<circle cx="487.5" cy="101.5" r="4.3"/>
+<circle cx="435.5" cy="114.5" r="4.3"/>
+<circle cx="448.5" cy="114.5" r="4.3"/>
+<circle cx="461.5" cy="114.5" r="4.3"/>
+<circle cx="474.5" cy="114.5" r="4.3"/>
+<circle class="miss" cx="487.5" cy="114.5" r="4.3"/>
+<circle cx="435.5" cy="127.5" r="4.3"/>
+<circle cx="448.5" cy="127.5" r="4.3"/>
+<circle cx="461.5" cy="127.5" r="4.3"/>
+<circle cx="474.5" cy="127.5" r="4.3"/>
+<circle cx="487.5" cy="127.5" r="4.3"/>
+<circle cx="435.5" cy="140.5" r="4.3"/>
+<circle cx="448.5" cy="140.5" r="4.3"/>
+<circle cx="461.5" cy="140.5" r="4.3"/>
+<circle cx="474.5" cy="140.5" r="4.3"/>
+<circle cx="487.5" cy="140.5" r="4.3"/>
+<circle cx="435.5" cy="153.5" r="4.3"/>
+<circle cx="448.5" cy="153.5" r="4.3"/>
+<circle cx="461.5" cy="153.5" r="4.3"/>
+<circle cx="474.5" cy="153.5" r="4.3"/>
+<circle cx="487.5" cy="153.5" r="4.3"/>
+<circle class="miss" cx="435.5" cy="166.5" r="4.3"/>
+<circle cx="448.5" cy="166.5" r="4.3"/>
+<circle cx="461.5" cy="166.5" r="4.3"/>
+<circle cx="474.5" cy="166.5" r="4.3"/>
+<circle cx="487.5" cy="166.5" r="4.3"/>
+<text x="461.5" y="197" text-anchor="middle">Zimbabwe</text>
+</svg>
+    <figcaption><span class="key-dot" aria-hidden="true"></span>Hollow dots stand for the people data can miss. Good AI starts by asking who they are.</figcaption>
+  </figure>
+</section>
+```
+
+::: {.home-body}
 
 ## Personal Value Proposition
 
@@ -20,36 +355,43 @@ I am currently studying machine learning fundamentals in the AIML-500 course at 
 
 ## Artifacts
 
-Each artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.
+Each artifact is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.
 
-::: artifact-card
-[Artifact 1 · Chatbot]{.tag}
+```{=html}
+<ol class="artifact-index">
+  <li>
+    <span class="ai-num">1</span>
+    <div class="ai-main">
+      <h3><a href="hiv-disclosure-assistant.html">HIV Disclosure Support Assistant</a></h3>
+      <p>A tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.</p>
+    </div>
+    <div class="ai-meta"><span class="ai-type">Chatbot</span><span class="ai-skill">Building and testing a safe AI tool</span></div>
+  </li>
+  <li>
+    <span class="ai-num">2</span>
+    <div class="ai-main">
+      <h3><a href="ml-vs-dl.html">Machine Learning vs. Deep Learning: Choosing the Right Approach</a></h3>
+      <p>A case-study report comparing telecom churn prediction and Apple's Face ID to show how the type of data should decide between traditional machine learning and deep learning.</p>
+    </div>
+    <div class="ai-meta"><span class="ai-type">Case study report</span><span class="ai-skill">Matching the method to the data</span></div>
+  </li>
+  <li>
+    <span class="ai-num">3</span>
+    <div class="ai-main">
+      <h3><a href="nolla-health-ai.html">Can AI Help with Acne Care Without Losing Human Oversight?</a></h3>
+      <p>My healthcare case study from a group newsletter on commercial AI: an evaluation of Nolla Health's AI-assisted acne care pilot that separates company claims, such as a 0.900 AUROC, from what has been independently shown.</p>
+    </div>
+    <div class="ai-meta"><span class="ai-type">Newsletter case study, group</span><span class="ai-skill">Reading AI health claims critically</span></div>
+  </li>
+  <li>
+    <span class="ai-num">4</span>
+    <div class="ai-main">
+      <h3><a href="human-bias-public-health-ai.html">Navigating Human Bias in Public Health AI: A Leader's Perspective</a></h3>
+      <p>How a convenient proxy variable carried racial bias into a widely used health algorithm, and six leadership practices I use to keep public health data and AI tools fair and transparent.</p>
+    </div>
+    <div class="ai-meta"><span class="ai-type">Leadership paper</span><span class="ai-skill">Leading for fairness in health AI</span></div>
+  </li>
+</ol>
+```
 
-### [HIV Disclosure Support Assistant](hiv-disclosure-assistant.qmd)
-
-A tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.
-:::
-
-::: artifact-card
-[Artifact 2 · Case Study Report]{.tag}
-
-### [Machine Learning vs. Deep Learning: Choosing the Right Approach](ml-vs-dl.qmd)
-
-A case-study report comparing telecom churn prediction and Apple's Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs.
-:::
-
-::: artifact-card
-[Artifact 3 · Newsletter Case Study (Group)]{.tag}
-
-### [Can AI Help with Acne Care Without Losing Human Oversight?](nolla-health-ai.qmd)
-
-My healthcare case study from a group newsletter on commercial AI: an evaluation of Nolla Health's AI-assisted acne care pilot that separates company claims, such as a 0.900 AUROC, from what has been independently shown.
-:::
-
-::: artifact-card
-[Artifact 4 · Leadership Paper]{.tag}
-
-### [Navigating Human Bias in Public Health AI: A Leader's Perspective](human-bias-public-health-ai.qmd)
-
-How a convenient proxy variable carried racial bias into a widely used health algorithm, and six leadership practices I use to keep public health data and AI tools fair and transparent.
 :::
