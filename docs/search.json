@@ -63,67 +63,74 @@
     "text": "References\n\nPHIA Project, ICAP at Columbia University. Country summary sheets.\nHIV Justice Network. Country profiles for Uganda and Zimbabwe.\nChatbase. Privacy Statement and Terms of Service.\n\n← Back to home"
   },
   {
-    "objectID": "ml-vs-dl.html",
-    "href": "ml-vs-dl.html",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html",
+    "href": "human-bias-public-health-ai.html",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "",
-    "text": "Download the full report (PDF)"
+    "text": "AI is often described as objective. But every model starts with human decisions: which data to collect, which outcome to predict, and which measure to use when the thing we care about is hard to observe. When those choices are careless, an algorithm can quietly reproduce existing inequities at scale.\nIn this paper, I use a landmark case of algorithmic bias in health care to examine where bias comes from, and I set out the leadership practices I will use to prevent it in public health research, including my own work with HIV survey data."
   },
   {
-    "objectID": "ml-vs-dl.html#read-the-report",
-    "href": "ml-vs-dl.html#read-the-report",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html#introduction",
+    "href": "human-bias-public-health-ai.html#introduction",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "",
-    "text": "Download the full report (PDF)"
+    "text": "AI is often described as objective. But every model starts with human decisions: which data to collect, which outcome to predict, and which measure to use when the thing we care about is hard to observe. When those choices are careless, an algorithm can quietly reproduce existing inequities at scale.\nIn this paper, I use a landmark case of algorithmic bias in health care to examine where bias comes from, and I set out the leadership practices I will use to prevent it in public health research, including my own work with HIV survey data."
   },
   {
-    "objectID": "ml-vs-dl.html#introduction",
-    "href": "ml-vs-dl.html#introduction",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
-    "section": "Introduction",
-    "text": "Introduction\nGlobal health programs are under pressure to “use AI,” and deep learning often gets the most attention. But a more complex model is not always a better one. Choosing the wrong approach can waste limited budgets, need data a program does not have, or produce results that staff cannot explain.\nIn this report, I compare two real-world cases to show how the type of data should guide the choice between traditional machine learning and deep learning."
+    "objectID": "human-bias-public-health-ai.html#how-bias-entered-a-health-algorithm",
+    "href": "human-bias-public-health-ai.html#how-bias-entered-a-health-algorithm",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
+    "section": "How Bias Entered a Health Algorithm",
+    "text": "How Bias Entered a Health Algorithm\nIn 2019, Obermeyer and colleagues showed in Science that a widely used tool for identifying patients who needed extra care had a hidden flaw. It used past healthcare spending as a stand-in for health need. Because less money had historically been spent on Black patients with the same level of illness, the algorithm judged them to be healthier than they were.\n\n  1 · Human choiceUse healthcare spending as a proxy for health need\n  2 · Historical gapLess was spent on Black patients with the same illness level\n  3 · Model learnsLower spending is read as \"healthier\"\n  4 · HarmPatients who needed extra care were overlooked\n\nNo one intended to discriminate. The bias entered at step 1, through a convenient measure, and the model faithfully carried it forward.\nWhere a leader can intervene:\n\n  Before building: question whether the proxy measures what matters\n  During evaluation: check results across subgroups, not only overall accuracy\n  After deployment: keep human judgment and invite people to raise concerns"
   },
   {
-    "objectID": "ml-vs-dl.html#description",
-    "href": "ml-vs-dl.html#description",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html#the-paper",
+    "href": "human-bias-public-health-ai.html#the-paper",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
+    "section": "The Paper",
+    "text": "The Paper\n\n\n\n\n\n\nNoteNavigating Human Bias in Public Health AI: A Leader’s Perspective\n\n\n\nIn 2019, Obermeyer and colleagues published a study in Science that showed how bias can enter healthcare algorithms. They looked at a widely used tool that helped hospitals identify patients who needed extra care. The algorithm used past healthcare spending as a stand-in for health need. Because less money has historically been spent on Black patients with the same level of illness, the algorithm treated them as healthier than they were. Many patients who needed support were overlooked.\nWhat stands out to me is that no one intended to discriminate. The bias came from a human choice: using a convenient measure instead of a more accurate one. This example shows that AI does not remove human bias. It can carry forward the choices people make when they select data, define outcomes, or choose proxy variables.\n\nPersonal Value Statement\nI believe that data and AI tools used in public health should help identify real needs and disparities, not hide them. As someone who has worked with large-scale HIV survey data across multiple countries, I have seen how decisions about what to measure and how to define key variables can shape what the results appear to show. As a leader in health data science, my responsibility is to question these choices early and to keep fairness and transparency in mind throughout the research process. I value careful thinking, clear documentation of limitations, and the willingness to revise methods when they may produce skewed results.\n\n\nStrategies to Fulfill This\nQuestion Proxy Variables and Outcome Definitions. Before building or adopting a model, ask whether the variables truly measure what matters (for example, using healthcare spending or clinic visits as proxies for health need). Involve people with different perspectives, such as clinicians, community partners, and researchers, when defining outcomes, especially in areas such as HIV care engagement or treatment adherence.\nCheck Results Across Groups. Regularly examine model performance and findings by key subgroups (race/ethnicity, gender, age, geography, or socioeconomic status). Treat this as an ongoing practice rather than a final step. Document who is underrepresented in the data and how that may affect conclusions.\nDocument Assumptions and Limitations. Clearly state the assumptions behind variable selection and modeling choices in reports and presentations. Make it standard practice to discuss potential sources of bias, rather than only reporting overall accuracy.\nKeep Human Judgment in the Process. Use AI or statistical models as tools to support decisions, not as final answers. Encourage team members to question results that seem inconsistent with known patterns in the population, and create space for them to raise concerns.\nBuild Diverse Review Practices. Include people from different backgrounds and roles when reviewing study design, variable choices, and model outputs. Different perspectives can help identify blind spots that a more uniform team might miss.\nLead Change Openly. When introducing new AI tools or methods to a team, start with small pilots and share both successes and problems openly. Explain why changes are being made, invite questions and pushback, and treat concerns about bias as useful input rather than resistance.\n\n\nConclusion\nAI and data science tools reflect the decisions people make when collecting data, choosing measures, and interpreting results. Strong leadership in public health research means making these decisions more intentionally, with a clear focus on equity and the real needs of the populations being studied. It also means guiding teams through change in a transparent and inclusive way."
+  },
+  {
+    "objectID": "human-bias-public-health-ai.html#description",
+    "href": "human-bias-public-health-ai.html#description",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "Description",
-    "text": "Description\nThe report analyzes two examples from my AIML-500 coursework, each linked to a real-world application:\n\nMachine learning: Customer churn prediction at a telecom company, using a Support Vector Machine (SVM) on structured customer records. A 2022 PLOS ONE study reached about 99% accuracy with only 3,333 customers.\nDeep learning: Apple’s Face ID, which uses Convolutional Neural Networks (CNNs) trained on over a billion images to recognize faces from raw pixels.\n\nFor each case, I explain why the chosen approach fits the problem and why the other approach does not, then compare both side by side.\n\n  2real-world cases analyzed\n  6factors compared: data type, features, data size, computing, explainability, priority\n  4cited sources, including a peer-reviewed study\n\n\n\n\n\n\n\n\n\nFactor\nChurn prediction (ML, SVM)\nFacial recognition (DL, CNN)\n\n\n\n\nData type\nStructured table\nUnstructured images (raw pixels)\n\n\nFeature extraction\nChosen by people\nLearned automatically\n\n\nData size\nSmall to moderate\nVery large\n\n\nComputing power\nOrdinary computer\nSpecialized hardware\n\n\nExplainability\nHigh\nLow\n\n\nMain priority\nFast, low-cost, explainable predictions\nHigh accuracy and security\n\n\n\n\nWhat this means for global health\nThe same reasoning applies to my own field. Much of the data HIV programs work with, such as PHIA survey records, is structured: one row per respondent with clearly defined variables. Like churn data, this kind of data is usually a better fit for traditional machine learning, which works with moderate sample sizes and keeps results explainable to program staff. Deep learning becomes the better choice when the data is raw and unstructured, such as medical images, and large labeled datasets and computing resources are available."
+    "text": "Description\nThe paper has three parts:\n\nA case analysis of the Obermeyer et al. (2019) study, showing how a proxy variable turned historical inequity into an algorithmic decision.\nA personal value statement grounded in my experience with multi-country HIV survey data.\nSix leadership strategies that turn that value into everyday practice, from questioning proxy variables to leading change openly.\n\n\n  1landmark study of algorithmic bias, published in Science\n  6leadership strategies for fair, transparent health AI\n  3data-challenge scenarios where I applied these ideas\n\n\nApplying these ideas in practice\nIn a separate AIML-500 simulation (Activity 4.3), I worked through three realistic data challenges with an AI coach. In the résumé-screening scenario, I identified proxy discrimination and selective labels, the same mechanism behind the Obermeyer case, and proposed local validation, subgroup fairness checks, staged deployment, human oversight, and rollback thresholds. In the hospital data-sharing scenario, I proposed federated learning with data harmonization and governance, while recognizing that privacy techniques reduce risk but do not remove it. The simulation showed me that the strategies in this paper can be turned into concrete decisions about real data."
   },
   {
-    "objectID": "ml-vs-dl.html#objective",
-    "href": "ml-vs-dl.html#objective",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html#objective",
+    "href": "human-bias-public-health-ai.html#objective",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "Objective",
-    "text": "Objective\nTo learn how to tell the difference between machine learning and deep learning, and to practice justifying a technical choice with real data and credible sources, a skill I need to advise health programs on which AI tools actually fit their problems."
+    "text": "Objective\nTo show how human choices introduce bias into AI systems, using a well-documented health care example, and to define the concrete leadership practices I will use to keep public health data and AI tools fair, transparent, and focused on real needs."
   },
   {
-    "objectID": "ml-vs-dl.html#process",
-    "href": "ml-vs-dl.html#process",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html#process",
+    "href": "human-bias-public-health-ai.html#process",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "Process",
-    "text": "Process\n\nReviewed the lesson. I studied the course’s ML and DL examples and the three key differences: feature extraction, data requirements, and model complexity.\nSelected and researched two cases. I chose one example of each approach and found real-world evidence: a peer-reviewed churn study in PLOS ONE and Apple’s official Face ID security documentation.\nBuilt the argument. For each case, I explained why the chosen approach fits and why the opposite approach does not, using four questions: What type of data is it? How much data is there? Do the results need to be explained? What does it cost?\nRevised against the rubric. I checked that every claim was supported by a source, made numbers consistent throughout, removed one claim my sources did not support, and formatted citations in APA style.\nAdapted it for this portfolio. I added the global health section above to show how the same decision framework applies to HIV survey data."
+    "text": "Process\n\nStudied a well-documented case. I chose the Obermeyer et al. (2019) study because it shows bias entering through an ordinary design choice rather than bad intent.\nTraced the mechanism. I identified the exact point where bias entered: using spending as a proxy for need.\nConnected it to my own work. I reflected on how variable definitions in HIV survey research shape what results appear to show.\nWrote a personal value statement and strategies. I turned that value into six practices a team can actually follow.\nUsed AI for language only. I used Claude to refine language and improve clarity, then reviewed and edited the final content myself.\nAdapted it for this portfolio. I added the visual of how bias moved through the algorithm, the three points where a leader can intervene, and evidence from the Activity 4.3 simulation showing how I applied these ideas."
   },
   {
-    "objectID": "ml-vs-dl.html#tools-and-technologies-used",
-    "href": "ml-vs-dl.html#tools-and-technologies-used",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html#tools-and-technologies-used",
+    "href": "human-bias-public-health-ai.html#tools-and-technologies-used",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "Tools and Technologies Used",
-    "text": "Tools and Technologies Used\n\nAIML-500 lesson materials: ML vs. DL examples and key differences.\nResearch sources: PLOS ONE (peer-reviewed journal), Apple Platform Security Guide, AIMultiple.\nMicrosoft Word and APA 7 citation style: writing and formatting the report.\nQuarto and GitHub Pages: publishing this portfolio page."
+    "text": "Tools and Technologies Used\n\nPeer-reviewed research: Obermeyer et al. (2019), Science.\nProfessional experience: multi-country PHIA HIV survey data.\nClaude: used to refine language and improve clarity. I reviewed, edited, and took full responsibility for the final content.\nQuarto and GitHub Pages: publishing this portfolio page."
   },
   {
-    "objectID": "ml-vs-dl.html#value-proposition",
-    "href": "ml-vs-dl.html#value-proposition",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html#value-proposition",
+    "href": "human-bias-public-health-ai.html#value-proposition",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "Value Proposition",
-    "text": "Value Proposition\n\nUnique Value\nI can explain technical AI choices in plain language and back them with evidence. This report shows that I can look at a problem, identify what kind of data it involves, and explain clearly why one approach fits better than another, in a way that non-technical decision-makers can follow.\n\n\nRelevance\nHealth programs often have limited budgets and small or structured datasets. Knowing when a simpler, explainable machine learning model is enough, and when deep learning is truly needed, helps programs avoid costly tools that do not fit their data. This connects directly to my goal of helping global health programs adopt AI that is evidence-based and appropriate for the people they serve."
+    "text": "Value Proposition\n\nUnique Value\nI combine hands-on experience with population health data and an understanding of how AI systems fail. I can spot where a convenient measure may hide a disparity, explain it clearly to a team, and put practical checks in place, such as subgroup analysis, documented assumptions, and human review, before a model shapes real decisions.\n\n\nRelevance\nPublic health programs are adopting AI to decide who receives outreach, testing, or care. If those tools use biased proxies, the people with the greatest need can be the first to be missed. Leaders who question these choices early help programs use AI to reveal disparities rather than hide them. This is the role I want to play in global health."
   },
   {
-    "objectID": "ml-vs-dl.html#references",
-    "href": "ml-vs-dl.html#references",
-    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "objectID": "human-bias-public-health-ai.html#references",
+    "href": "human-bias-public-health-ai.html#references",
+    "title": "Navigating Human Bias in Public Health AI: A Leader’s Perspective",
     "section": "References",
-    "text": "References\n\nAIML-500. (n.d.). Machine learning vs. deep learning [Course lesson]. Indiana Wesleyan University.\nAIMultiple. (2026). Top deep learning use cases & with examples. https://aimultiple.com/deep-learning-applications\nApple Inc. (n.d.). Facial matching security [Apple Platform Security Guide]. https://support.apple.com/guide/security/sece151358d1/web\nNguyen, N. Y., Tran, V. L., & Dao, V. T. S. (2022). Churn prediction in telecommunication industry using kernel Support Vector Machines. PLOS ONE, 17(5), e0267935. https://doi.org/10.1371/journal.pone.0267935\n\n← Back to home"
+    "text": "References\n\nObermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. Science, 366(6464), 447–453. https://doi.org/10.1126/science.aax2342\n\n← Back to home"
   },
   {
     "objectID": "nolla-health-ai.html",
@@ -189,6 +196,69 @@
     "text": "References\n\nNolla Health. (2026, October 5). Nolla’s Utah prescription pilot announcement.\nNolla Health. (2026, October 9). Acne flare-up forecasting: Model description and internal evaluation.\nUtah Department of Commerce. (n.d.). Authorized AI pilots: Nolla Health.\nThe BMJ. (2026, October 19). Report on physician oversight in Nolla’s pilot.\nGroup 3 (Sultan, A., Uppuluri, J., Punyamurthula, K. S., Sun, Y., & Gu, Y.). (2026). From insight to action: How AI is changing food operations, fleet management, and healthcare decisions [Course newsletter]. AIML-500, Indiana Wesleyan University.\n\n← Back to home"
   },
   {
+    "objectID": "ml-vs-dl.html",
+    "href": "ml-vs-dl.html",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "",
+    "text": "Download the full report (PDF)"
+  },
+  {
+    "objectID": "ml-vs-dl.html#read-the-report",
+    "href": "ml-vs-dl.html#read-the-report",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "",
+    "text": "Download the full report (PDF)"
+  },
+  {
+    "objectID": "ml-vs-dl.html#introduction",
+    "href": "ml-vs-dl.html#introduction",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Introduction",
+    "text": "Introduction\nGlobal health programs are under pressure to “use AI,” and deep learning often gets the most attention. But a more complex model is not always a better one. Choosing the wrong approach can waste limited budgets, need data a program does not have, or produce results that staff cannot explain.\nIn this report, I compare two real-world cases to show how the type of data should guide the choice between traditional machine learning and deep learning."
+  },
+  {
+    "objectID": "ml-vs-dl.html#description",
+    "href": "ml-vs-dl.html#description",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Description",
+    "text": "Description\nThe report analyzes two examples from my AIML-500 coursework, each linked to a real-world application:\n\nMachine learning: Customer churn prediction at a telecom company, using a Support Vector Machine (SVM) on structured customer records. A 2022 PLOS ONE study reached about 99% accuracy with only 3,333 customers.\nDeep learning: Apple’s Face ID, which uses Convolutional Neural Networks (CNNs) trained on over a billion images to recognize faces from raw pixels.\n\nFor each case, I explain why the chosen approach fits the problem and why the other approach does not, then compare both side by side.\n\n  2real-world cases analyzed\n  6factors compared: data type, features, data size, computing, explainability, priority\n  4cited sources, including a peer-reviewed study\n\n\n\n\n\n\n\n\n\nFactor\nChurn prediction (ML, SVM)\nFacial recognition (DL, CNN)\n\n\n\n\nData type\nStructured table\nUnstructured images (raw pixels)\n\n\nFeature extraction\nChosen by people\nLearned automatically\n\n\nData size\nSmall to moderate\nVery large\n\n\nComputing power\nOrdinary computer\nSpecialized hardware\n\n\nExplainability\nHigh\nLow\n\n\nMain priority\nFast, low-cost, explainable predictions\nHigh accuracy and security\n\n\n\n\nWhat this means for global health\nThe same reasoning applies to my own field. Much of the data HIV programs work with, such as PHIA survey records, is structured: one row per respondent with clearly defined variables. Like churn data, this kind of data is usually a better fit for traditional machine learning, which works with moderate sample sizes and keeps results explainable to program staff. Deep learning becomes the better choice when the data is raw and unstructured, such as medical images, and large labeled datasets and computing resources are available."
+  },
+  {
+    "objectID": "ml-vs-dl.html#objective",
+    "href": "ml-vs-dl.html#objective",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Objective",
+    "text": "Objective\nTo learn how to tell the difference between machine learning and deep learning, and to practice justifying a technical choice with real data and credible sources, a skill I need to advise health programs on which AI tools actually fit their problems."
+  },
+  {
+    "objectID": "ml-vs-dl.html#process",
+    "href": "ml-vs-dl.html#process",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Process",
+    "text": "Process\n\nReviewed the lesson. I studied the course’s ML and DL examples and the three key differences: feature extraction, data requirements, and model complexity.\nSelected and researched two cases. I chose one example of each approach and found real-world evidence: a peer-reviewed churn study in PLOS ONE and Apple’s official Face ID security documentation.\nBuilt the argument. For each case, I explained why the chosen approach fits and why the opposite approach does not, using four questions: What type of data is it? How much data is there? Do the results need to be explained? What does it cost?\nRevised against the rubric. I checked that every claim was supported by a source, made numbers consistent throughout, removed one claim my sources did not support, and formatted citations in APA style.\nAdapted it for this portfolio. I added the global health section above to show how the same decision framework applies to HIV survey data."
+  },
+  {
+    "objectID": "ml-vs-dl.html#tools-and-technologies-used",
+    "href": "ml-vs-dl.html#tools-and-technologies-used",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Tools and Technologies Used",
+    "text": "Tools and Technologies Used\n\nAIML-500 lesson materials: ML vs. DL examples and key differences.\nResearch sources: PLOS ONE (peer-reviewed journal), Apple Platform Security Guide, AIMultiple.\nMicrosoft Word and APA 7 citation style: writing and formatting the report.\nQuarto and GitHub Pages: publishing this portfolio page."
+  },
+  {
+    "objectID": "ml-vs-dl.html#value-proposition",
+    "href": "ml-vs-dl.html#value-proposition",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "Value Proposition",
+    "text": "Value Proposition\n\nUnique Value\nI can explain technical AI choices in plain language and back them with evidence. This report shows that I can look at a problem, identify what kind of data it involves, and explain clearly why one approach fits better than another, in a way that non-technical decision-makers can follow.\n\n\nRelevance\nHealth programs often have limited budgets and small or structured datasets. Knowing when a simpler, explainable machine learning model is enough, and when deep learning is truly needed, helps programs avoid costly tools that do not fit their data. This connects directly to my goal of helping global health programs adopt AI that is evidence-based and appropriate for the people they serve."
+  },
+  {
+    "objectID": "ml-vs-dl.html#references",
+    "href": "ml-vs-dl.html#references",
+    "title": "Machine Learning vs. Deep Learning: Choosing the Right Approach",
+    "section": "References",
+    "text": "References\n\nAIML-500. (n.d.). Machine learning vs. deep learning [Course lesson]. Indiana Wesleyan University.\nAIMultiple. (2026). Top deep learning use cases & with examples. https://aimultiple.com/deep-learning-applications\nApple Inc. (n.d.). Facial matching security [Apple Platform Security Guide]. https://support.apple.com/guide/security/sece151358d1/web\nNguyen, N. Y., Tran, V. L., & Dao, V. T. S. (2022). Churn prediction in telecommunication industry using kernel Support Vector Machines. PLOS ONE, 17(5), e0267935. https://doi.org/10.1371/journal.pone.0267935\n\n← Back to home"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Yuchen Gu",
@@ -214,6 +284,6 @@
     "href": "index.html#artifacts",
     "title": "Yuchen Gu",
     "section": "Artifacts",
-    "text": "Artifacts\nEach artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.\n\nArtifact 1 · Chatbot\n\nHIV Disclosure Support Assistant\nA tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.\n\n\n\nArtifact 2 · Case Study Report\n\nMachine Learning vs. Deep Learning: Choosing the Right Approach\nA case-study report comparing telecom churn prediction and Apple’s Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs.\n\n\n\nArtifact 3 · Newsletter Case Study (Group)\n\nCan AI Help with Acne Care Without Losing Human Oversight?\nMy healthcare case study from a group newsletter on commercial AI: an evaluation of Nolla Health’s AI-assisted acne care pilot that separates company claims, such as a 0.900 AUROC, from what has been independently shown."
+    "text": "Artifacts\nEach artifact below is a finished piece of work from my AIML-500 coursework, with the process, tools, and value it offers to global health programs.\n\nArtifact 1 · Chatbot\n\nHIV Disclosure Support Assistant\nA tested AI assistant that helps people think through HIV status disclosure safely and helps researchers summarize PHIA data, built with Design Thinking and verified sources only.\n\n\n\nArtifact 2 · Case Study Report\n\nMachine Learning vs. Deep Learning: Choosing the Right Approach\nA case-study report comparing telecom churn prediction and Apple’s Face ID to show how the type of data should decide between traditional machine learning and deep learning, with lessons for global health programs.\n\n\n\nArtifact 3 · Newsletter Case Study (Group)\n\nCan AI Help with Acne Care Without Losing Human Oversight?\nMy healthcare case study from a group newsletter on commercial AI: an evaluation of Nolla Health’s AI-assisted acne care pilot that separates company claims, such as a 0.900 AUROC, from what has been independently shown.\n\n\n\nArtifact 4 · Leadership Paper\n\nNavigating Human Bias in Public Health AI: A Leader’s Perspective\nHow a convenient proxy variable carried racial bias into a widely used health algorithm, and six leadership practices I use to keep public health data and AI tools fair and transparent."
   }
 ]

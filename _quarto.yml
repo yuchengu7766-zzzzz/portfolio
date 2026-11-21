@@ -8,12 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: hiv-disclosure-assistant.qmd
-        text: "Artifact 1: HIV Disclosure Assistant"
-      - href: ml-vs-dl.qmd
-        text: "Artifact 2: ML vs. DL"
-      - href: nolla-health-ai.qmd
-        text: "Artifact 3: AI in Healthcare"
+      - text: "Artifacts"
+        menu:
+          - href: hiv-disclosure-assistant.qmd
+            text: "Artifact 1: HIV Disclosure Assistant"
+          - href: ml-vs-dl.qmd
+            text: "Artifact 2: ML vs. DL"
+          - href: nolla-health-ai.qmd
+            text: "Artifact 3: AI in Healthcare"
+          - href: human-bias-public-health-ai.qmd
+            text: "Artifact 4: Bias in Public Health AI"
   page-footer:
     center: "© 2026 Yuchen Gu · Built with Quarto for the AIML-500 Professional Portfolio"
 

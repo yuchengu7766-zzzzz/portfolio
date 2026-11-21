@@ -1,0 +1,123 @@
+---
+title: "Navigating Human Bias in Public Health AI: A Leader's Perspective"
+subtitle: "Artifact 4 · AIML-500 Leadership Paper"
+description: "A leadership paper on how human choices, such as proxy variables and outcome definitions, carry bias into health algorithms, and the practices I commit to as a leader in health data science."
+---
+
+## Introduction
+
+AI is often described as objective. But every model starts with human decisions: which data to collect, which outcome to predict, and which measure to use when the thing we care about is hard to observe. When those choices are careless, an algorithm can quietly reproduce existing inequities at scale.
+
+In this paper, I use a landmark case of algorithmic bias in health care to examine where bias comes from, and I set out the leadership practices I will use to prevent it in public health research, including my own work with HIV survey data.
+
+## How Bias Entered a Health Algorithm
+
+In 2019, Obermeyer and colleagues showed in *Science* that a widely used tool for identifying patients who needed extra care had a hidden flaw. It used **past healthcare spending as a stand-in for health need**. Because less money had historically been spent on Black patients with the same level of illness, the algorithm judged them to be healthier than they were.
+
+```{=html}
+<div class="flow">
+  <div class="step"><b>1 · Human choice</b>Use healthcare spending as a proxy for health need</div>
+  <div class="step"><b>2 · Historical gap</b>Less was spent on Black patients with the same illness level</div>
+  <div class="step"><b>3 · Model learns</b>Lower spending is read as "healthier"</div>
+  <div class="step harm"><b>4 · Harm</b>Patients who needed extra care were overlooked</div>
+</div>
+<p class="flow-note">No one intended to discriminate. The bias entered at step 1, through a convenient measure, and the model faithfully carried it forward.</p>
+```
+
+**Where a leader can intervene:**
+
+```{=html}
+<div class="guard">
+  <div><b>Before building:</b> question whether the proxy measures what matters</div>
+  <div><b>During evaluation:</b> check results across subgroups, not only overall accuracy</div>
+  <div><b>After deployment:</b> keep human judgment and invite people to raise concerns</div>
+</div>
+```
+
+## The Paper
+
+::: {.callout-note appearance="simple" icon=false}
+### Navigating Human Bias in Public Health AI: A Leader's Perspective
+
+In 2019, Obermeyer and colleagues published a study in *Science* that showed how bias can enter healthcare algorithms. They looked at a widely used tool that helped hospitals identify patients who needed extra care. The algorithm used past healthcare spending as a stand-in for health need. Because less money has historically been spent on Black patients with the same level of illness, the algorithm treated them as healthier than they were. Many patients who needed support were overlooked.
+
+What stands out to me is that no one intended to discriminate. The bias came from a human choice: using a convenient measure instead of a more accurate one. This example shows that AI does not remove human bias. It can carry forward the choices people make when they select data, define outcomes, or choose proxy variables.
+
+#### Personal Value Statement
+
+I believe that data and AI tools used in public health should help identify real needs and disparities, not hide them. As someone who has worked with large-scale HIV survey data across multiple countries, I have seen how decisions about what to measure and how to define key variables can shape what the results appear to show. As a leader in health data science, my responsibility is to question these choices early and to keep fairness and transparency in mind throughout the research process. I value careful thinking, clear documentation of limitations, and the willingness to revise methods when they may produce skewed results.
+
+#### Strategies to Fulfill This
+
+**Question Proxy Variables and Outcome Definitions.** Before building or adopting a model, ask whether the variables truly measure what matters (for example, using healthcare spending or clinic visits as proxies for health need). Involve people with different perspectives, such as clinicians, community partners, and researchers, when defining outcomes, especially in areas such as HIV care engagement or treatment adherence.
+
+**Check Results Across Groups.** Regularly examine model performance and findings by key subgroups (race/ethnicity, gender, age, geography, or socioeconomic status). Treat this as an ongoing practice rather than a final step. Document who is underrepresented in the data and how that may affect conclusions.
+
+**Document Assumptions and Limitations.** Clearly state the assumptions behind variable selection and modeling choices in reports and presentations. Make it standard practice to discuss potential sources of bias, rather than only reporting overall accuracy.
+
+**Keep Human Judgment in the Process.** Use AI or statistical models as tools to support decisions, not as final answers. Encourage team members to question results that seem inconsistent with known patterns in the population, and create space for them to raise concerns.
+
+**Build Diverse Review Practices.** Include people from different backgrounds and roles when reviewing study design, variable choices, and model outputs. Different perspectives can help identify blind spots that a more uniform team might miss.
+
+**Lead Change Openly.** When introducing new AI tools or methods to a team, start with small pilots and share both successes and problems openly. Explain why changes are being made, invite questions and pushback, and treat concerns about bias as useful input rather than resistance.
+
+#### Conclusion
+
+AI and data science tools reflect the decisions people make when collecting data, choosing measures, and interpreting results. Strong leadership in public health research means making these decisions more intentionally, with a clear focus on equity and the real needs of the populations being studied. It also means guiding teams through change in a transparent and inclusive way.
+:::
+
+## Description
+
+The paper has three parts:
+
+- **A case analysis** of the Obermeyer et al. (2019) study, showing how a proxy variable turned historical inequity into an algorithmic decision.
+- **A personal value statement** grounded in my experience with multi-country HIV survey data.
+- **Six leadership strategies** that turn that value into everyday practice, from questioning proxy variables to leading change openly.
+
+```{=html}
+<div class="stats">
+  <div class="stat"><b>1</b><span>landmark study of algorithmic bias, published in <i>Science</i></span></div>
+  <div class="stat"><b>6</b><span>leadership strategies for fair, transparent health AI</span></div>
+  <div class="stat"><b>3</b><span>data-challenge scenarios where I applied these ideas</span></div>
+</div>
+```
+
+### Applying these ideas in practice
+
+In a separate AIML-500 simulation (Activity 4.3), I worked through three realistic data challenges with an AI coach. In the résumé-screening scenario, I identified **proxy discrimination** and **selective labels**, the same mechanism behind the Obermeyer case, and proposed local validation, subgroup fairness checks, staged deployment, human oversight, and rollback thresholds. In the hospital data-sharing scenario, I proposed federated learning with data harmonization and governance, while recognizing that privacy techniques reduce risk but do not remove it. The simulation showed me that the strategies in this paper can be turned into concrete decisions about real data.
+
+## Objective
+
+To show how human choices introduce bias into AI systems, using a well-documented health care example, and to define the concrete leadership practices I will use to keep public health data and AI tools fair, transparent, and focused on real needs.
+
+## Process
+
+1. **Studied a well-documented case.** I chose the Obermeyer et al. (2019) study because it shows bias entering through an ordinary design choice rather than bad intent.
+2. **Traced the mechanism.** I identified the exact point where bias entered: using spending as a proxy for need.
+3. **Connected it to my own work.** I reflected on how variable definitions in HIV survey research shape what results appear to show.
+4. **Wrote a personal value statement and strategies.** I turned that value into six practices a team can actually follow.
+5. **Used AI for language only.** I used Claude to refine language and improve clarity, then reviewed and edited the final content myself.
+6. **Adapted it for this portfolio.** I added the visual of how bias moved through the algorithm, the three points where a leader can intervene, and evidence from the Activity 4.3 simulation showing how I applied these ideas.
+
+## Tools and Technologies Used
+
+- **Peer-reviewed research**: Obermeyer et al. (2019), *Science*.
+- **Professional experience**: multi-country PHIA HIV survey data.
+- **Claude**: used to refine language and improve clarity. I reviewed, edited, and took full responsibility for the final content.
+- **Quarto and GitHub Pages**: publishing this portfolio page.
+
+## Value Proposition
+
+### Unique Value
+
+I combine hands-on experience with population health data and an understanding of how AI systems fail. I can spot where a convenient measure may hide a disparity, explain it clearly to a team, and put practical checks in place, such as subgroup analysis, documented assumptions, and human review, before a model shapes real decisions.
+
+### Relevance
+
+Public health programs are adopting AI to decide who receives outreach, testing, or care. If those tools use biased proxies, the people with the greatest need can be the first to be missed. Leaders who question these choices early help programs use AI to reveal disparities rather than hide them. This is the role I want to play in global health.
+
+## References
+
+- Obermeyer, Z., Powers, B., Vogeli, C., & Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. *Science, 366*(6464), 447–453. [https://doi.org/10.1126/science.aax2342](https://doi.org/10.1126/science.aax2342)
+
+[← Back to home](index.qmd)

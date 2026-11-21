@@ -45,3 +45,11 @@ A case-study report comparing telecom churn prediction and Apple's Face ID to sh
 
 My healthcare case study from a group newsletter on commercial AI: an evaluation of Nolla Health's AI-assisted acne care pilot that separates company claims, such as a 0.900 AUROC, from what has been independently shown.
 :::
+
+::: artifact-card
+[Artifact 4 · Leadership Paper]{.tag}
+
+### [Navigating Human Bias in Public Health AI: A Leader's Perspective](human-bias-public-health-ai.qmd)
+
+How a convenient proxy variable carried racial bias into a widely used health algorithm, and six leadership practices I use to keep public health data and AI tools fair and transparent.
+:::
